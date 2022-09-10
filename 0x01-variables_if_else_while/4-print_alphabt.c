@@ -6,7 +6,7 @@
 
 
 /**
-* *main - Prints the alphabet without q and e.
+* * main - Prints the alphabet without q and e.
 *
 * *
 *
