@@ -5,7 +5,7 @@
 * Numbers must be separated by commas and a space.
 * The 3 digits myst be diffeent.
 * 012, 120, 102, 021, 210 are considered the same combination.
-* you are not allowed to use any variable of type char.
+* print only the smallest combination of 3 digits.
 * Numbers should be printed in ascending order.
 * You can only use 'putchar' to print to console.
 * Yu can only use 'putcahr' up to 6 times.
