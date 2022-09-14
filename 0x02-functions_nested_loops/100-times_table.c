@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
-* print_times_table - prints a multiplication table
-* @n: the end and size of the multiplication table
-* Description: prints an mxn multiplication table
-* that starts from 0 and stops at n
-*/
+ *print_times_table - prints a multiplication table
+ *@n: the end and size od the multiplication table
+ *Description: prints an nxn multiplication table
+ *that sitarts from 0 and stops at n
+ */
 void print_times_table(int n)
 {
 
@@ -16,9 +16,9 @@ void print_times_table(int n)
 		printf("%d\n", 0);
 		n = 100;
 	}
-	if (n >= 0 && n <= 15)
+	if (n >= 0 &&  n <= 15)
 	{
-		for (i =0; i <= n; i++)
+		for (i = 0; i <= n; i++)
 		{
 			for (j = 0; j <= n; j++)
 			{
@@ -32,7 +32,7 @@ void print_times_table(int n)
 						printf("%d,", product);
 				}
 				else
-					printf("%4d", i + j);
+					printf("%4d", i * j);
 			}
 			putchar('\n');
 		}
