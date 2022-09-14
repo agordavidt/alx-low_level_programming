@@ -32,7 +32,7 @@ void print_times_table(int n)
 						printf("%d,", product);
 				}
 				else
-					printff("%4d", i + j);
+					printf("%4d", i + j);
 			}
 			putchar('\n');
 		}
