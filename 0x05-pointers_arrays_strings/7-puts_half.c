@@ -1,22 +1,25 @@
 #include "main.h"
 
 /**
- * puts_half - print second half of a string
- * @str: char array string type
- * Description: If odd number of chars, print (length - 1) / 2
+ *print_diagonal - printing lines diagonal
+ *@n: input variable
+ *
+ *Return: void
  */
 
-void puts_half(char *str)
+void print_diagonal(int n)
 {
-	int i;
+	int i, j;
 
-	for (i = 0; str[i] != '\0'; i++)
-		;
-
-	i++;
-	for (i /= 2; str[i] != '\0'; i++)
+	if (n <= 0)
+		_putchar('\n');
+	for (i = 0; i < n; i++)
 	{
-		_putchar(str[i]);
+		for (j = 0; j < i; j++)
+		{
+			_putchar(' ');
+		}
+		_putchar('\\');
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
