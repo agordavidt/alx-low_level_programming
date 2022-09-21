@@ -18,9 +18,3 @@ int _strcmp(char *s1, char *s2)
 	}
 	return (0);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Sec
