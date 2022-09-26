@@ -5,7 +5,7 @@
 * @s: string to check
 * @accept: string to check against
 *
-* Retrun: number of bytes of s in accept
+* Return: number of bytes of s in accept
 */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -21,5 +21,5 @@ unsigned int _strspn(char *s, char *accept)
 		if (!accept[j])
 			break;
 	}
-	return (0);
+	return (i);
 }
