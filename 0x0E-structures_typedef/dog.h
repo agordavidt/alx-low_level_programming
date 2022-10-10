@@ -2,7 +2,7 @@
 #define STRYP
 
 /**
-* struct dog - structure of a god
+* struct dog - structure of a dog
 * @name: name of dog
 * @age: age of dog
 * @owner: owner of dog
